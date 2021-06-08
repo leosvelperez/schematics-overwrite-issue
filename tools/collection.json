@@ -1,0 +1,13 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "my-schematic": {
+      "description": "Simple schematic.",
+      "factory": "./schematics/my-schematic/index#mySchematic"
+    },
+    "my-broken-schematic": {
+      "description": "Simple schematic.",
+      "factory": "./schematics/my-schematic/index#myBrokenSchematic"
+    }
+  }
+}
